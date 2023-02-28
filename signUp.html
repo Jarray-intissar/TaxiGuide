@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="signUP.css">
+</head>
+<body>
+        <div class="form-box">
+            <form class="create" onsubmit="test()" action="index.html">
+                <h1>Create Account</h1>
+                 Name:<label><input type="text" class="nom" placeholder="enter your name"> </label>
+                 <label>Email:<input type="email" class="eml" placeholder="email@email.com"></label>
+                 <label>Phone:<input type="text" class="ph" placeholder="0021600000000"></label>
+                <label>Password:<input type="password" class="pass"></label>
+                <label>Confirm:<input type="password" class="conf"></label>
+                <input type="submit" value="Submit" class="btn">
+            </form>
+        </div>
+    </section>
+    <script>
+        function test(){
+          confirm("Are you ok with it");  
+        }
+      </script>
+</body>
+</html>
